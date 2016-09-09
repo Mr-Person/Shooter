@@ -1,40 +1,5 @@
-# Shooter
-
-To take into consideration:
-Enemies and bosses will lose HP depending on how close the player's projectile is to their center
-height is the height of the whole canvas, where 'Height' is only the height of the game screen
-A pre-death timer is implemented into the character superclass: All character types will have a '0 health' state
-
-/////////////////////////////////////////////////////////////////////////////
-
-At low health:
-- Enemy's eyes change angle and color
-- Boss attacks more frequently
-
-There is a level scale in the game. As level increases:
-- A new wave of enemies approach, where there are two more enemeies than before
-- Average speed of boss and enemies are faster
-- Boss and enemies attack more frequently
-
-Enemies also attack more frequently if there are fewer left
-Enemies eyes point to the direction they're moving to
-Boss only appears every 3rd level after the wave of enemies is cleared
-Boss entry is staggered
-Added a pause feature to the game
-
-Achievements have been added: Same format from the second assignment:
-- Hit 15 enemies in a row
-- Don't get hit for a level after level 2
-- Finish off an enemy by hitting it right at the center
-- Clear the level before a certain amount of time passes
-- Defeat the boss while the player's health is less than 10%
-- Take the "Instant Sweeper" Power-up
-- Defeat an enemy by only hovering the player's shield over them
-- Do not move for 5 minutes
-- Make it to level 16
-- At the end of any level 20 or over, the player needs over 25 consecutive hits with at least 80% of their health remaining
-
-/////////////////////////////////////////
+# Space Shooter
+A space shooter game where the player defeats waves of enemies.
 
 Power-up Implementation:
 These power-ups can be acquired by the player or an enemy; not a boss. The character's gauge will max out and slowly lower to zero.
